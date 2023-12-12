@@ -23,7 +23,7 @@
     </ion-card-content>
   </ion-card>
 
-  <ion-button *ngIf="rol === 'alumno'" (click)="scanQRCode()">Escanear código QR</ion-button>
+  <ion-button *ngIf="rol === 'alumno'" (click)="scanBarcode()">Escanear código QR</ion-button>
 
   <ion-list  *ngIf="rol === 'profesor'">
     <ion-list-header>
